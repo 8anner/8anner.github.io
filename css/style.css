@@ -442,7 +442,6 @@ figure.highlight > .clipboard-btn .icon:before {
   word-break: break-word;
   padding-top: 0.25em;
   padding-bottom: 0.5em;
-  text-indent: 2em;
 }
 .post-item blockquote p {
   text-indent: 0;
@@ -572,7 +571,6 @@ figure.highlight > .clipboard-btn .icon:before {
   word-break: break-word;
   padding-top: 0.25em;
   padding-bottom: 0.5em;
-  text-indent: 2em;
 }
 .post p code {
   vertical-align: middle;
