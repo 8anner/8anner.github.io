@@ -68,27 +68,31 @@
 
   <!-- User css -->
   
+  
+<link rel="stylesheet" href="/css/user.css">
+
+  
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="">
+  <link rel="icon" type="image/png" href="/images/favicon.png">
 
   <!-- Custom Theme Color Style
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <style>
   a:not(.icon) {
-    text-decoration-color: #;
+    text-decoration-color: #0FA0CE;
     background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0) 50%,
-      # 50%
+      #0FA0CE 50%
     );
   }
   blockquote {
-    border-left: 8px solid #;
+    border-left: 8px solid #0FA0CE;
   }
   .nanobar .bar {
-    background: #;
+    background: #0FA0CE;
   }
   .button.button-primary:hover,
   button.button-primary:hover,
@@ -100,8 +104,8 @@
   input[type="submit"].button-primary:focus,
   input[type="reset"].button-primary:focus,
   input[type="button"].button-primary:focus {
-    background-color: #;
-    border-color: #;
+    background-color: #0FA0CE;
+    border-color: #0FA0CE;
   }
   input[type="email"]:focus,
   input[type="number"]:focus,
@@ -112,7 +116,7 @@
   input[type="password"]:focus,
   textarea:focus,
   select:focus {
-    border: 1px solid #;
+    border: 1px solid #0FA0CE;
   }
 </style>
 
@@ -120,6 +124,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   
 
+  
+  <script src="/js/pic.min.js" defer></script>
   
 
   
@@ -134,8 +140,8 @@
         <div class="row">
   <div class="two columns" style="max-width: 50px">
     <h1 class="mt-2 mode">
-      <div onclick=setDarkMode(true) id="darkBtn"></div>
-      <div onclick=setDarkMode(false) id="lightBtn" class=hidden></div>
+      <div onclick=setDarkMode(true) id="darkBtn">🌑</div>
+      <div onclick=setDarkMode(false) id="lightBtn" class=hidden>☀️</div>
       <script >
         if (localStorage.getItem('preferredTheme') == 'dark') {
           setDarkMode(true)
@@ -160,7 +166,7 @@
 
   <div class="six columns ml-1">
     <h1 class="mt-2">
-      
+      班纳的博客
     </h1>
   </div>
 
@@ -168,6 +174,18 @@
     <div class="row">
       <div class="nine columns left">
         <a href="/">首页</a>
+        
+          
+          <a href="/about" class="ml">关于</a>
+          
+        
+          
+          <a href="/work" class="ml">作品</a>
+          
+        
+          
+          <a href="/archives" class="ml">归档</a>
+          
         
       </div>
     </div>
@@ -200,6 +218,25 @@
 -->
         <div class="row mt-2">
   
+    <div class="eight columns">
+      <p id="madewith">
+        
+    </div>
+
+    <!-- Sepcial thanks to https://simpleicons.org/ for the icons -->
+    <div class="four columns mb-3 posisi" >
+      
+
+      
+
+      
+
+      
+
+      
+
+    </div>
+  
 </div>
 
       </div>
@@ -207,7 +244,7 @@
     </div>
 
   </div>
-  <script src=""></script>
+  <script src="/js/nanobar.min.js"></script>
 
   <script>
     var options = {
